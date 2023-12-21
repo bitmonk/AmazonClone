@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amaxon</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.0.0/css/flag-icons.min.css"/>
+    <link href="https://fonts.cdnfonts.com/css/amazon-ember" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="heading">
+            <div class="main-logo border">
+                <a href="#" id="logo-link"><img src="logo.png" id="logo"></a>
+            </div>
+
+
+            <div class="location border">
+                <p id="deliver-to">Deliver to</p>
+                
+                <div class="country-name">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p> Nepal</p>
+                </div>
+            </div>
+            
+
+            <!-- search section -->
+            <div class="nav-search">
+                    <select name="All" id="category">
+                        <option>All</option>
+                    </select>
+                <input id="search-container" type="text" placeholder="Search Amazon">
+                <div id="search-icon-container"><i id="search-icon" class="fa-solid fa-magnifying-glass"></i></div>
+            </div>
+            <!-- search section end-->
+
+
+
+            <!-- last-nav section -->
+            <div class="account-section">
+
+                <div class="languages border">
+                    <span class="fi fi-us fis"></span>
+                    <select id="language">
+                        <option value="languages">EN</option>
+                    </select>
+                </div>
+
+
+                <!-- Sign in box -->
+
+                <div class="accounts border">
+                    <div class="account-container">
+                        <p class="account1">Hello, sign in</p>
+                        <p class="account2">Account & Lists</p>
+                    </div>
+                    <i class="fa-solid fa-angle-down" id="down-arrow"></i>
+                </div>
+
+                <!-- Sign in box end -->
+
+
+                <div>
+                <div class="returns-orders border">
+                  <p class="returns">Returns</p>  
+                  <p class="orders">& Orders</p>
+                </div>
+            </div>
+
+                <div class="cart border">
+                    <i class="fa-solid fa-cart-shopping cart-icon"></i>
+                    <p class="cart-text">Cart</p>
+                </div>
+                
+            </div>
+        </div>
+        <!-- last-nav section end -->
+
+
+        <!-- secondary navbar -->
+            <div class="navbar">                
+                <ul>
+                    <li><a href="#"><i class="fas fa-bars hamburger border"></i></a></li>
+                    <li><a href="#" class="border text1">All</a></li>
+                    <li><a href="#" class="border">Today's Deals</a></li>
+                    <li><a href="#" class="border">Registry</a></li>
+                    <li><a href="#" class="border">Customer Service</a></li>
+                    <li><a href="#" class="border">GiftCards</a></li>
+                    <li><a href="#" class="border">Sell</a></li>
+                </ul>
+            </div>
+            <!-- secondary navbar end -->
+        
+    </div>
+
+<!-- carousel -->
+    <div class="carousel-wrapper">
+        <img class="slider" src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71Q+c4-cnjL._SX3000_.jpg" alt="not found !">
+
+        <img class="slider" src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/717RUPA1bDL._SX3000_.jpg" alt="not found !">
+        <button class="left-button" type="button" onclick="goPrevious()"><</button>
+        <button class="right-button" type="button" onclick="goNext()">></button>
+        <img class="slider" src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/61lwJy4B8PL._SX3000_.jpg" alt="not found !">
+
+        <img class="slider" src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/61CiqVTRBEL._SX3000_.jpg" alt="not found !">
+        <div class="overlay"></div>
+    </div>
+    <!-- carousel end -->
+
+
+
+    <div class="item-cards">
+        <div class="item1 item"></div>
+        <div class="item2 item"></div>
+        <div class="item3 item"></div>
+        <div class="item4 item"></div>
+    </div>
+    
+</div>
+<script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/e8b54f58bf.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,306 @@
+@import url('https://fonts.cdnfonts.com/css/amazon-ember');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Amazon Ember', sans-serif;
+    background-color: #E3E6E6;
+}
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: stretch;  
+    background-color: #00453E;
+    height: 60px;
+}
+
+.main-logo {
+position: relative;
+   height: 60px;
+   width: 130px;
+}
+
+#logo {
+    position: relative;
+    height: 40px;
+    top: 20%;
+}
+.location{
+    height: 50px;
+    width: 100px;
+    color: white;
+    padding-top: 5px;
+}
+#location-icon {
+    color: white;
+}
+#country {
+    text-decoration: none;
+    color: #cccccc;
+    font-size: 14px;
+}
+.country-name {
+    display: flex;
+    gap: 5px;
+}
+
+
+.navbar {
+    margin:0;
+    padding: 0;
+    background-color: #195851;
+    padding: 10px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+ul li{
+    padding-left: 1rem;
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    height: 100%;
+}
+.nav-search {
+    display: flex;
+    left: 5%;
+    bottom: 5%;
+}
+
+#search-container {
+    display: flex;
+    height: 40px;
+    width: 50rem;
+    border-style: none;
+    outline: none;
+}
+.nav-search:hover {
+    box-shadow: 5px 5px 10px black;
+}
+
+#search-icon-container {
+display: flex;
+height: 40px;
+width: 45px;
+background-color: #FFCABD;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+
+#category{
+    text-align: center;
+    width: 50px;
+    border: none;
+    background-color: #D4D4D4;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+}
+
+#search-icon {
+position: relative;
+top: 30%;
+left: 30%; 
+}
+
+
+.slider {
+    width: 100%;
+    height: 100%;
+    background-repeat:no-repeat;
+    position: absolute;
+    background-size: contain;
+    transition: 500ms ;
+}
+
+.left-button {
+    position: absolute;
+    z-index: 10;
+    top: 30%;
+    height: 100px;
+    width: 20px;
+    opacity: 60%;
+}
+
+.right-button {
+    position: absolute; 
+    z-index: 10;
+    right: 0%;
+    top: 30%;
+    height: 100px;
+    width: 20px;
+    opacity: 60%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom, rgba(255,0,0,0), 90%, #E3E6E6);
+    pointer-events: none;
+  } 
+
+  
+
+  .border:hover {
+    cursor: pointer;
+    border: 1.5px solid white;
+  }
+ #deliver-to {
+    position: relative;
+    left: 18%;
+    top: 10%;
+    text-decoration: none;
+    color: #cccccc;
+    font-size: 12px;
+
+ }
+
+
+.hamburber {
+    color: white;
+    font-size: 50px;
+}
+
+.carousel-wrapper {
+    display: flex;
+    position: absolute;
+    width: 100% ;
+    border: none;
+    height: 600px;
+    overflow: hidden;
+}
+.item-cards {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 1000px;
+    width: 100%;
+    top: 45%;
+    gap: 3rem;
+}
+.item {
+    height: 420px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+}  
+
+
+.account-section {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 2%;  
+}
+
+  .languages {
+    display: flex;
+}
+#language {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #00453E;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+  
+  .accounts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+  }
+
+  #account {
+    border : none;
+    background-color:#00453E;
+    width: 100px;
+    height: 50px;
+    color: white;
+  }
+
+  .text-colour {
+    color: white;
+  }
+
+  .account-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+  }
+  .account1{
+    position: relative;
+    right: 12%;
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+  }
+  .account2{
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    bottom: 5%;
+  }
+
+  #down-arrow {
+    color: white;
+  }
+  
+
+  .returns-orders {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50px;
+    width: 80px;
+  }
+
+  .returns {
+    position: relative; 
+    right: 10%;
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+    top: 5%;
+  }
+  
+  .orders {
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+  }
+  .cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 80px;
+  }
+  .cart-icon {
+    font-size: 25px;
+    color: white;
+  }
+  .cart-text {
+    color: white;
+    position: relative;
+    top: 10%;
+  }
+
+.text1 {
+    height: 50px;
+}
